@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-has-globalthis-support",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Detect globalThis support.",
   "license": "Apache-2.0",
   "author": {
