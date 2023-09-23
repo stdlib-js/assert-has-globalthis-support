@@ -147,16 +147,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-globalthis-support-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-has-globalthis-support-cli
 
-[test-image]: https://github.com/stdlib-js/assert-has-globalthis-support/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/assert-has-globalthis-support/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/actions/workflows/test.yml?query=branch:v0.1.0
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-has-globalthis-support/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/assert-has-globalthis-support?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-has-globalthis-support@v0.1.0/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/assert-has-globalthis-support@v0.1.0?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-has-globalthis-support.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/assert-has-globalthis-support/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-has-globalthis-support@v0.1.0.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/assert-has-globalthis-support@v0.1.0/main
 
 -->
 
@@ -167,19 +167,19 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/assert-has-globalthis-support#cli
-[cli-url]: https://github.com/stdlib-js/assert-has-globalthis-support/tree/cli
-[@stdlib/assert-has-globalthis-support]: https://github.com/stdlib-js/assert-has-globalthis-support/tree/main
+[cli-section]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0#cli
+[cli-url]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/tree/cli
+[@stdlib/assert-has-globalthis-support]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/assert-has-globalthis-support/tree/deno
-[umd-url]: https://github.com/stdlib-js/assert-has-globalthis-support/tree/umd
-[esm-url]: https://github.com/stdlib-js/assert-has-globalthis-support/tree/esm
-[branches-url]: https://github.com/stdlib-js/assert-has-globalthis-support/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/tree/deno
+[umd-url]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/tree/umd
+[esm-url]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/tree/esm
+[branches-url]: https://github.com/stdlib-js/assert-has-globalthis-support@v0.1.0/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-has-globalthis-support/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-has-globalthis-support@v0.1.0/main/LICENSE
 
 [mdn-global-this]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis
 
