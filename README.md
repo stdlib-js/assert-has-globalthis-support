@@ -35,17 +35,72 @@ limitations under the License.
 
 > Detect [`globalThis`][mdn-global-this] support.
 
+<section class="installation">
 
+## Installation
 
+```bash
+npm install @stdlib/assert-has-globalthis-support
+```
 
+Alternatively,
 
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
+</section>
 
+<section class="usage">
+
+## Usage
+
+```javascript
+var hasGlobalThisSupport = require( '@stdlib/assert-has-globalthis-support' );
+```
+
+#### hasGlobalThisSupport()
+
+Detects if a runtime environment supports [`globalThis`][mdn-global-this].
+
+```javascript
+var bool = hasGlobalThisSupport();
+// returns <boolean>
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+## Examples
+
+<!-- eslint no-undef: "error" -->
+
+```javascript
+var hasGlobalThisSupport = require( '@stdlib/assert-has-globalthis-support' );
+
+var bool = hasGlobalThisSupport();
+if ( bool ) {
+    console.log( 'Environment has `globalThis` support.' );
+} else {
+    console.log( 'Environment lacks `globalThis` support.' );
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+* * *
 
 <section class="cli">
 
-
+## CLI
 
 <section class="installation">
 
@@ -63,7 +118,7 @@ npm install -g @stdlib/assert-has-globalthis-support-cli
 
 <section class="usage">
 
-## Usage
+### Usage
 
 ```text
 Usage: has-globalthis-support [options]
@@ -80,7 +135,7 @@ Options:
 
 <section class="examples">
 
-## Examples
+### Examples
 
 ```bash
 $ has-globalthis-support
@@ -99,9 +154,10 @@ $ has-globalthis-support
 
 <section class="related">
 
+* * *
+
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert-has-globalthis-support`][@stdlib/assert-has-globalthis-support]</span><span class="delimiter">: </span><span class="description">detect globalThis support.</span>
 -   <span class="package-name">[`@stdlib/utils-global`][@stdlib/utils/global]</span><span class="delimiter">: </span><span class="description">return the global object.</span>
 
 </section>
@@ -121,7 +177,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-### Community
+#### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -144,11 +200,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-globalthis-support-cli.svg
-[npm-url]: https://npmjs.org/package/@stdlib/assert-has-globalthis-support-cli
+[npm-image]: http://img.shields.io/npm/v/@stdlib/assert-has-globalthis-support.svg
+[npm-url]: https://npmjs.org/package/@stdlib/assert-has-globalthis-support
 
-[test-image]: https://github.com/stdlib-js/assert-has-globalthis-support/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/assert-has-globalthis-support/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/assert-has-globalthis-support/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/assert-has-globalthis-support/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-has-globalthis-support/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-has-globalthis-support?branch=main
