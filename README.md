@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@deno/mod.js';
+import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@v0.1.1-deno/mod.js';
 ```
 
 #### hasGlobalThisSupport()
@@ -65,7 +65,7 @@ var bool = hasGlobalThisSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@deno/mod.js';
+import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@v0.1.1-deno/mod.js';
 
 var bool = hasGlobalThisSupport();
 if ( bool ) {
