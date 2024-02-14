@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-has-globalthis-support",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Detect globalThis support.",
   "license": "Apache-2.0",
   "author": {
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@stdlib/cli-ctor": "^0.1.1",
-    "@stdlib/fs-read-file": "^0.1.1"
+    "@stdlib/fs-read-file": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
