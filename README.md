@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+hasGlobalThisSupport = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-globalthis-support/tags). For example,
+
+```javascript
 hasGlobalThisSupport = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var hasGlobalThisSupport = require( 'path/to/vendor/umd/assert-has-globalthis-su
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -92,7 +97,7 @@ var bool = hasGlobalThisSupport();
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
