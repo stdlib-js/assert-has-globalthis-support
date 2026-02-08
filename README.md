@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-globalthis-support/tags). For example,
+
+```javascript
 import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@v0.2.3-esm/index.mjs';
 ```
 
@@ -70,7 +75,7 @@ var bool = hasGlobalThisSupport();
 <body>
 <script type="module">
 
-import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@v0.2.3-esm/index.mjs';
+import hasGlobalThisSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-globalthis-support@esm/index.mjs';
 
 var bool = hasGlobalThisSupport();
 if ( bool ) {
